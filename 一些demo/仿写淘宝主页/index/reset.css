@@ -1,0 +1,93 @@
+/* 样式重置 */
+body,p,h1,h2,h3,h4{
+    margin: 0;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+img{
+    border: none;
+    vertical-align: middle;/*让它更文字之间有在垂直方向上对齐*/
+}
+
+a{
+    text-decoration: none;
+    color: #3c3c3c;
+}
+
+i{
+    font-style: normal;
+}
+
+input,button{
+    margin: 0;
+    padding: 0;
+}
+
+button{
+    outline: none;
+}
+table{
+    border-collapse: collapse; /* 边框模式，合并的模式 */
+}
+th,td{
+    padding: 0;
+}
+body{
+    font: 12px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+    /*都表示宋体*/
+    /* 
+    font-family: '宋体';
+    font-family: '\5b8b\4f53';
+    font-family: SimSun;   
+    */
+
+    color: #3c3c3c;
+    background-color: #f4f4f4;
+}
+
+/* 清除浮动 */
+.clearfix::after{
+    content:'';
+    display: block;
+    clear: both;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+/* 设置居中 */
+.layer{
+    width: 1190px;
+    margin:0 auto;
+}
+.c4{
+    color: #f40;
+}
+.c5{
+    color: #f50;
+}
+.c6{
+    color: #8b7afb;
+}
+.c7{
+    color: #a8c001;
+}
+.mr5{
+    margin-right:5px ;
+}
+.mr7{
+    margin-right: 7px;
+}
+.mt10{
+    margin-top: 10px;
+}
+.mr10{
+    margin-right: 10px;
+}
